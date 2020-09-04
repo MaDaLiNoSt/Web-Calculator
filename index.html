@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src='js/bignumber.js'></script>
+
+    <script type="text/javascript" src="js/WindowManagerMadalinost.js"></script>
+
+    <link rel="stylesheet" href="css/calculator.css">
+    <script type="text/javascript" src='js/calculator.js'></script>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="icon" type="image/png" href="images/calculator.png">
+</head>
+
+
+<body class="noselect">
+   
+
+    <div id="divW_Calculator_" style="margin:0px;">
+        <div id="divW_Calculator_header">⠀⠀⠀⠀Calculator</div>
+        <button id='calc_sign'  onclick="calc_sign_CLICK('calc_sign')" ;  >+/-</button>
+        <button id='calc_0'        onclick="calc_0_CLICK('calc_0'   )" ;  >0</button>
+        <button id='calc_dot'      onclick="calc_dot_CLICK('calc_dot'   )" ;  >.</button>
+        <button id='calc_egal'   onclick="calc_equals_CLICK('calc_egal'   )" ;  >=</button>
+        <button id='calc_1'        onclick="calc_1_CLICK('calc_1'   )" ;  >1</button>
+        <button id='calc_2'        onclick="calc_2_CLICK('calc_2'   )" ;  >2</button>
+        <button id='calc_3'        onclick="calc_3_CLICK('calc_3'   )" ;  >3</button>
+        <button id='calc_plus'     onclick="calc_plus_CLICK('calc_plus'   )" ;  >+</button>
+        <button id='calc_4'        onclick="calc_4_CLICK('calc_4'   )" ;  >4</button>
+        <button id='calc_5'        onclick="calc_5_CLICK('calc_5'   )" ;  >5</button>
+        <button id='calc_6'        onclick="calc_6_CLICK('calc_6'   )" ;  >6</button>
+        <button id='calc_-'    onclick="calc_minus_CLICK('calc_-'   )" ;  >−</button>
+        <button id='calc_7'        onclick="calc_7_CLICK('calc_7'   )" ;  >7</button>
+        <button id='calc_8'        onclick="calc_8_CLICK('calc_8'   )" ;  >8</button>
+        <button id='calc_9'        onclick="calc_9_CLICK('calc_9'   )" ;  >9</button>
+        <button id='calc_X'        onclick="calc_X_CLICK('calc_X'   )" ;  >×</button>
+        <button id='calc_procent'  onclick="calc_procent_CLICK('calc_procent'   )" ;  >%</button>
+        <button id='calc_sqrt'  onclick="calc_sqrt_CLICK('calc_sqrt')" ;  >√</button>
+        <button id='calc_C'        onclick="calc_C_CLICK('calc_C'   )" ;  >C</button>
+        <button id='calc_divide'   onclick="calc_divide_CLICK('calc_divide'   )" ;  >÷</button>
+        <button id='calc_POW2'  onclick="calc_POW2_CLICK('calc_POW2')" ;  >x²</button>
+     <button id='calc_subunitar'  onclick="calc_1divideX_CLICK('calc_subunitar' )" ;  >¹/x</button>
+     <button id='calc_xPOWn'   onclick="calc_xPOWn_CLICK('calc_xPOWn')";  >xⁿ</button>
+        <button id='calc_CLR'    onclick="calc_CLR_CLICK('calc_CLR' )" ;  >⌫</button>
+        <div id='calc_display1'></div> 
+        <div id='calc_display2'></div> 
+        <div id='closeBtnCalc' onclick="closeWindow('divW_Calculator_')">×</div>
+        <h id='icon3'></h>
+        </div>      
+
+
+</body>
+
+</html>

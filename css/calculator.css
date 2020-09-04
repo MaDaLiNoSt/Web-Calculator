@@ -1,0 +1,103 @@
+#divW_Calculator_ {
+  
+    margin:0px;
+     position: absolute;
+     z-index: 99;
+     width:320px;
+     height: 473px;
+     opacity: 100%;
+     background-color:#F0F0F0;
+     text-align: justify;
+    
+     border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    top: 10%;
+    left: 25%;
+    margin-top: -50px;
+    margin-left: -50px;
+}    
+    
+#divW_Calculator_header {
+     text-align: left;
+     padding: 0px;
+     height: 20px;
+     cursor: move;
+     z-index: 99;
+     background-color:white;
+     color:black;
+     font-style: normal;
+     font-size: 14px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+     border-style: solid;
+     border-width: 1px;
+     border-color: white;
+     border-bottom-color:#ADADAD;
+}
+
+#icon3{
+    background-image: url('../images/calculator.png');
+    background-repeat: no-repeat;  
+    width: 18px;
+    height:18px;
+    background-size: 100% 100%;
+
+
+    margin: 0px;
+    position: absolute;
+    left: 8px;
+    top: 6px;
+}
+
+#calc_sign    {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:4px;left: 4px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}
+#calc_0       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:4px;left: 83px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}   
+#calc_dot       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:4px;left: 162px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;} 
+#calc_egal       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:4px;left: 241px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}    
+#calc_1       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:64px;left: 4px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}    
+#calc_2       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:64px;left: 83px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}   
+#calc_3       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:64px;left: 162px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}  
+#calc_plus       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:64px;left: 241px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}      
+#calc_4       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:124px;left: 4px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}      
+#calc_5       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:124px;left: 83px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}   
+#calc_6       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:124px;left: 162px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}      
+#calc_-       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:124px;left: 241px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}       
+#calc_7       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:184px;left: 4px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}      
+#calc_8       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:184px;left: 83px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}         
+#calc_9       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:184px;left: 162px;width: 75px;height:56px;border-style: solid;border-color: white;background-color: white;font-size: 26px;}          
+#calc_X       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:184px;left: 241px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}        
+#calc_procent       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:244px;left: 4px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}         
+#calc_sqrt    {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:244px;left: 83px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}          
+#calc_C       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:244px;left: 162px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}         
+#calc_divide       {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:244px;left: 241px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}       
+#calc_POW2    {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:304px;left: 4px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}          
+#calc_subunitar     {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:304px;left: 83px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}         
+#calc_xPOWn   {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:304px;left: 162px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}         
+#calc_CLR     {font-family: Arial, Helvetica, sans-serif;position: absolute;bottom:304px;left: 241px;width: 75px;height:56px;border-style: solid;border-color: whitesmoke;background-color: whitesmoke;opacity: 100%;font-size: 26px;}        
+
+#calc_display1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;position:absolute;bottom: 357px;right: 4px;height: 50px;color: black;font-size: 34px;
+}
+
+#calc_display2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;position:absolute;bottom: 390px;right: 4px;height: 50px;color: black;font-size: 28px;
+}
+
+#closeBtnCalc{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;top:-16px;right: 5px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+                                
+  }
